@@ -7,13 +7,11 @@
     android:orientation="horizontal"
     android:padding="16dp">
 
-    <!-- Barre latérale gauche bleue -->
     <View
         android:layout_width="80dp"
         android:layout_height="match_parent"
         android:background="#007bff" />
 
-    <!-- Partie droite du CV -->
     <LinearLayout
         android:layout_width="0dp"
         android:layout_weight="2"
@@ -21,15 +19,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Photo de profil -->
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="16dp"
-            android:contentDescription="Photo de Moustapha Sow"/>
-
-        <!-- Nom complet -->
         <TextView
             android:text="Moustapha Sow"
             android:textSize="24sp"
@@ -38,7 +27,6 @@
             android:layout_height="wrap_content"
             android:gravity="center"/>
 
-        <!-- Titre -->
         <TextView
             android:text="Développeur chez AGIRC-ARRCO"
             android:textSize="18sp"
@@ -47,7 +35,6 @@
             android:layout_height="wrap_content"
             android:gravity="center"/>
 
-        <!-- Études -->
         <TextView
             android:text="Études : ESGII"
             android:textSize="16sp"
@@ -55,7 +42,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <!-- Expérience professionnelle -->
         <TextView
             android:text="Expérience :"
             android:textSize="18sp"
@@ -65,18 +51,17 @@
             android:layout_height="wrap_content"/>
 
         <TextView
-            android:text="Développeur en alternance chez AGIRC-ARRCO (2025 - présent)"
+            android:text="Développeur en alternance chez AGIRC-ARRCO 2025 - présent"
             android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <TextView
-            android:text="Chef de projet chez Novabricks (avant 2025)"
+            android:text="Chef de projet chez Novabricks 2022 -2025 "
             android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-        <!-- Compétences -->
         <TextView
             android:text="Compétences : Kotlin, Java, XML, Android Studio, Git, Scrum, SQL"
             android:textSize="16sp"
