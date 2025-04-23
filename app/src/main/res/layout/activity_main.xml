@@ -36,15 +36,22 @@ android:layout_marginTop="8dp"
      android:gravity="center"/>
 
 <TextView
- android:text="Études : ESGII"
+ android:text="Études"
   android:textSize="16sp"
 android:layout_marginTop="16dp"
    android:layout_width="wrap_content"
 android:layout_height="wrap_content"/>
+  <TextView
+ android:text="2024 - 2026 : Master en architecture logiciel"
+  android:textSize="14sp"
+android:layout_marginTop="16dp"
+   android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+  
 
  <TextView
-android:text="Expérience :"
-   android:textSize="18sp"
+android:text="2022 - 2024 : Bachelor en architecture logiciel :"
+   android:textSize="14sp"
 android:textStyle="bold"
  android:layout_marginTop="16dp"
  android:layout_width="wrap_content"
